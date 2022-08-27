@@ -7,9 +7,10 @@
     <title>Indice TP2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+    <link href="/index.css" rel="stylesheet">
 </head>
 <body>
+    
 <table class="table table-striped table-hover" style="width:100%;">
 <thead>
     <tr>
@@ -17,24 +18,25 @@
     </tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align:center">
-            <a href="Ej1/Vista/Ej1.php">Ejercicio 1</a>
+
+        <td class="ejercicios" style="text-align:center">
+            <a href="../TP1/indexTP1.php">Ejercicio 2</a>
         </td>
     </tr>
     <tr>
-        <td style="text-align:center">
-            <a href="Ej2/Vista/Ej2.php">Ejercicio 2</a>
+        <td class="ejercicios" style="text-align:center">
+            <a href="./vista/ejercicio1.php">Ejercicio 3</a>
         </td>
     </tr>
     <tr>
-        <td style="text-align:center">
-            <a href="Ej3/Vista/Ej3.php">Ejercicio 3</a>
+    <tr>
+        <td class="ejercicios" style="text-align:center">
+            <a href="./vista/ejercicio4.php">Ejercicio 4</a>
         </td>
     </tr>
     <tr>
-        <td style="text-align:center">
-            <a href="Ej4/Vista/Ej4.php">Ejercicio 4</a>
+        <td class="ejercicios" style="text-align:center">
+            <a href="../index.php">Volver al menu principal.</a>
         </td>
     </tr>
 </tbody>

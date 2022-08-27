@@ -13,28 +13,28 @@
 <table class="table table-striped table-hover" style="width:100%;">
 <thead>
     <tr>
-      <th scope="col" style="text-align:center">Ejercicios TP 2</th>
+      <th scope="col" style="text-align:center">Ejercicios TP 3</th>
     </tr>
 </thead>
 <tbody>
-    <tr>
+       <tr>
         <td style="text-align:center">
-            <a href="Ej1/Vista/Ej1.php">Ejercicio 1</a>
+            <a href="./vista/ejercicio1.php">Ejercicio 1</a>
         </td>
     </tr>
     <tr>
         <td style="text-align:center">
-            <a href="Ej2/Vista/Ej2.php">Ejercicio 2</a>
+            <a href="./vista/ejercicio2.php">Ejercicio 2</a>
         </td>
     </tr>
     <tr>
         <td style="text-align:center">
-            <a href="Ej3/Vista/Ej3.php">Ejercicio 3</a>
+            <a href="../tp2/vista/ejercicio4.php">Ejercicio 3</a>
         </td>
     </tr>
     <tr>
         <td style="text-align:center">
-            <a href="Ej4/Vista/Ej4.php">Ejercicio 4</a>
+            <a href="../index.php">Volver al menu principal.</a>
         </td>
     </tr>
 </tbody>

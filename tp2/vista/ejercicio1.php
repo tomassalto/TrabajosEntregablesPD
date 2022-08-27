@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <div>
         <form id="form1" name="form1" method="post" action="../control/destino.php">
             <div class="mb-3">
@@ -25,7 +26,14 @@
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
             <button id="btn-sub" type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </form><br>
+        <div>
+    <tr>
+        <td class="ejercicios" style="text-align:center">
+          <a href="/tp2/indexTP2.php"><button class="btn btn-primary">Volver atrás.</button></a> 
+        </td>
+    </tr>
+    </div>
   </div>
 
    

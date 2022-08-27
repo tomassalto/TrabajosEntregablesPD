@@ -161,7 +161,14 @@
                     <button class="btn btn-primary" type="submit">Enviar</button>
                     <button class="btn btn-primary" type="reset">Borrar</button>
                 </div>
-            </div>
+            </div><br>
+            
+                <tr>
+                <td class="ejercicios" style="text-align:center">
+                <a href="/tp2/indexTP2.php"><button class="btn btn-primary" type="button">Volver atrás.</button></a> 
+                </td>
+                </tr>
+           
        
             <script>                 
             

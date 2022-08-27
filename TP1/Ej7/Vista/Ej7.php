@@ -38,4 +38,11 @@
             <input type="submit" name="submit" id="submit" value="Enviar">
         </form>
     </body>
+    <div>
+    <tr>
+        <td class="ejercicios" style="text-align:center">
+          <a href="/TP1/indexTP1.php"><button >Volver atrás.</button></a> 
+        </td>
+    </tr>
+    </div>
 </html>

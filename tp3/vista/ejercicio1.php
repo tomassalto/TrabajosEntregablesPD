@@ -22,8 +22,12 @@
             </div>
             <button id="btn-sub" type="submit" class="btn btn-primary">Enviar</button>
         </form>
-    </div>
-
+    </div><br>
+    <tr>
+    <td class="ejercicios" style="text-align:center">
+    <a href="/tp3/indexTP3.php"><button class="btn btn-primary" type="button">Volver atrás.</button></a> 
+    </td>
+    </tr>
     
 </body>
 <script src="index.js" type="text/javascript"></script>

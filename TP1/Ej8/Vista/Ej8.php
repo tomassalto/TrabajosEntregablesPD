@@ -27,5 +27,12 @@
             <input type="radio" name="estudio" id="estudio" value="2" checked>No<br/>
             <input type="submit" name="submit" id="submit" value="Enviar"/>
         </form>
+        <div>
+    <tr>
+        <td class="ejercicios" style="text-align:center">
+          <a href="/TP1/indexTP1.php"><button >Volver atrás.</button></a> 
+        </td>
+    </tr>
+    </div>
     </body> 
 </html>

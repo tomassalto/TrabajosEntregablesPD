@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1 TP 1</title>
+
     <script>
             function validacion(){
                 var numero = document.getElementById("validationCustom01");
@@ -34,6 +35,13 @@
         <input type="text" id="validationCustom01" name="numero">
         <button class="btn btn-primary" type="submit">Enviar</button>
     </form>
-    
+    <div>
+    <tr>
+        <td class="ejercicios" style="text-align:center">
+          <a href="/TP1/indexTP1.php"><button >Volver atrás.</button></a> 
+        </td>
+    </tr>
+    </div>
+ 
 </body>
-</html>aaaaaaaaaaaaaa
+</html>
