@@ -18,27 +18,51 @@
                 //var_dump(key_exists($user, $arrayUsuarios));
                 //verificar si esta en el array el user 
                 if (key_exists($user, $arrayUsuarios)) {
-                    if ($arrayUsuarios[$user] == $password) {
-                        
-                        echo "<div class=\"alert alert-success\" role=\"alert\">
-                        Bienvenido $user, ha iniciado sesion correctamente!
-                      </div>";
-
+                    if ($arrayUsuarios[$user] == $password) {                        
+                    echo "<div class=\"alert alert-success\" role=\"alert\">
+                    Bienvenido $user, ha iniciado sesion correctamente!
+                    <div>                    
+                        <tr>
+                            <td class='ejercicios' style='text-align:center'>                    
+                            <a href='../vista/ejercicio1.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                            </td>
+                        </tr>
+                    </div>";
                     } else {
                         
                         echo "<div class=\"alert alert-warning\" role=\"alert\">
                         $user ha ingresado una contraseña inválida
-                      </div>";
+                      </div>
+                      <div>                    
+                        <tr>
+                            <td class='ejercicios' style='text-align:center'>                    
+                            <a href='../vista/ejercicio1.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                            </td>
+                        </tr>
+                    </div>";
                     }
                 } else {
                   
                     echo "<div class=\"alert alert-danger\" role=\"alert\">
                     No hemos podido encontrar dicho usuario
-                  </div>";
+                  </div>
+                  <div>                    
+                        <tr>
+                            <td class='ejercicios' style='text-align:center'>                    
+                            <a href='../vista/ejercicio1.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                            </td>
+                        </tr>
+                    </div>";
                 }
             } else {
                
-                echo "No hay datos";
+                echo "No hay datos <div>                    
+                <tr>
+                    <td class='ejercicios' style='text-align:center'>                    
+                    <a href='../vista/ejercicio1.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                    </td>
+                </tr>
+            </div>";
             }
         }
         ?>

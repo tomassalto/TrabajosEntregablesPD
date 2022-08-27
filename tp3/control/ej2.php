@@ -12,14 +12,35 @@ $nombre = $_FILES['archivo']["name"];
             echo "<div>
             <textarea rows=10 cols=50>
             $ruta</textarea>
+            </div>
+            <div>                    
+                <tr>
+                    <td class='ejercicios' style='text-align:center'>                    
+                    <a href='../vista/ejercicio1.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                    </td>
+                </tr>
             </div>";
             }   
         }else{
-            echo "El archivo no tiene el formato solicitado";
+            echo "El archivo no tiene el formato solicitado
+            <div>                    
+                <tr>
+                    <td class='ejercicios' style='text-align:center'>                    
+                    <a href='../vista/ejercicio1.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                    </td>
+                </tr>
+            </div>";
         }
        
     }else{
-        echo "no hay archivo";
+        echo "no hay archivo
+        <div>                    
+            <tr>
+                <td class='ejercicios' style='text-align:center'>                    
+                <a href='../vista/ejercicio1.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                </td>
+            </tr>
+        </div>";
     }
 
 

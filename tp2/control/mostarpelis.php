@@ -23,7 +23,14 @@
                 if($_FILES['imagen']['type'] == "image/jpeg" || $_FILES['imagen']['type'] == "image/png"){          
                    
                    if (!copy($_FILES['imagen']['tmp_name'], $dir.$_FILES['imagen']['name'])) {
-                    echo "ERROR: no se pudo cargar el imagen ";
+                    echo "ERROR: no se pudo cargar el imagen
+                    <div>                    
+                        <tr>
+                            <td class='ejercicios' style='text-align:center'>                    
+                            <a href='../vista/ejercicio4.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                            </td>
+                        </tr>
+                    </div>";
                    }else{                    
                     echo "El archivo ".$_FILES["imagen"]["name"]." se ha copiado con Éxito <br />";                   
                     } 
@@ -35,7 +42,13 @@
                     
                 }                
             }else{
-                echo "no hay archivo";
+                echo "no hay archivo <div>                    
+                <tr>
+                    <td class='ejercicios' style='text-align:center'>                    
+                    <a href='../vista/ejercicio4.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                    </td>
+                </tr>
+            </div>";
             }
             //recuperacion de datos 
             if(isset($_POST['titulo'])){
@@ -121,7 +134,14 @@
             <div class='shadow' id='imagen_contenedor'>
             <p></p>Imagen de la pelicula:<br>
             <img src='../vista/archivos/$nombre' alt='Foto ilustrativa de la pelicula $titulo'>
-            </div>";
+            </div>
+            <div>                    
+                        <tr>
+                            <td class='ejercicios' style='text-align:center'>                    
+                            <a href='../vista/ejercicio4.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
+                            </td>
+                        </tr>
+                    </div>";
         }
         ?>
         </div>
