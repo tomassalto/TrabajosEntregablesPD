@@ -1,6 +1,6 @@
 <?php
 
-$dir = '../archivos/';  // Definimos Directorio donde se guarda el archivo
+$dir = '../vista/archivos/';  // Definimos Directorio donde se guarda el archivo
 // Comprobamos que no se hayan producido errores
 
 

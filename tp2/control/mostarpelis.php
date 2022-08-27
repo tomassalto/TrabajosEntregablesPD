@@ -15,7 +15,7 @@
     <main>
         <div class="alert alert-success" role="alert">
         <?php
-        $dir = "../archivos/";
+        $dir = "../vista/archivos/";
         $nombre = $_FILES['imagen']["name"];
 
         if(isset($_POST)){
@@ -120,7 +120,7 @@
             </p>
             <div class='shadow' id='imagen_contenedor'>
             <p></p>Imagen de la pelicula:<br>
-            <img src='../Archivos/$nombre' alt='Foto ilustrativa de la pelicula $titulo'>
+            <img src='../vista/archivos/$nombre' alt='Foto ilustrativa de la pelicula $titulo'>
             </div>";
         }
         ?>
