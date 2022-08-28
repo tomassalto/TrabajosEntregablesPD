@@ -30,7 +30,7 @@
         <div>
     <tr>
         <td class="ejercicios" style="text-align:center">
-          <a href="/TP1/indexTP1.php"><button >Volver atrás.</button></a> 
+          <a href="../../indexTP1.php"><button >Volver atrás.</button></a> 
         </td>
     </tr>
     </div>

@@ -25,7 +25,7 @@
     </div><br>
     <tr>
     <td class="ejercicios" style="text-align:center">
-    <a href="/tp3/indexTP3.php"><button class="btn btn-primary" type="button">Volver atrás.</button></a> 
+    <a href="../indexTP3.php"><button class="btn btn-primary" type="button">Volver atrás.</button></a> 
     </td>
     </tr>
     
