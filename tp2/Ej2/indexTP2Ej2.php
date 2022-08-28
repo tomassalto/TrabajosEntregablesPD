@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indice TP2</title>
+    <title>Indice TP2 Ej2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="/index.css" rel="stylesheet">
@@ -14,29 +14,39 @@
 <table class="table table-striped table-hover" style="width:100%;">
 <thead>
     <tr>
-      <th scope="col" style="text-align:center">Ejercicios TP 2</th>
+      <th scope="col" style="text-align:center">Ejercicio 2 TP 2</th>
     </tr>
 </thead>
 <tbody>
 
         <td class="ejercicios" style="text-align:center">
-            <a href="Ej2/indexTP2Ej2.php">Ejercicio 2</a>
+            <a href="punto1/Vista/punto1.php">Ejercicio 1</a>
         </td>
     </tr>
     <tr>
         <td class="ejercicios" style="text-align:center">
-            <a href="./vista/ejercicio1.php">Ejercicio 3</a>
+            <a href="punto2/Vista/punto2.php">Ejercicio 2</a>
         </td>
     </tr>
     <tr>
     <tr>
         <td class="ejercicios" style="text-align:center">
-            <a href="./vista/ejercicio4.php">Ejercicio 4</a>
+            <a href="punto3/Vista/punto3.php">Ejercicio 6</a>
         </td>
     </tr>
     <tr>
         <td class="ejercicios" style="text-align:center">
-            <a href="../index.php">Volver al menu principal.</a>
+            <a href="punto4/Vista/punto4.php">Ejercicio 7</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="ejercicios" style="text-align:center">
+            <a href="punto5/Vista/punto5.php">Ejercicio 8</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="ejercicios" style="text-align:center">
+            <a href="../indexTP2.php">Volver al menu TP 2.</a>
         </td>
     </tr>
 </tbody>
