@@ -55,3 +55,16 @@ body {
 .ejercicios{
     background-color: white !important;
 }
+
+#header{
+ background-color: var(--gris) !important;
+}
+
+.bg-light{
+    background-color: var(--gris) !important;
+}
+
+:root{
+    --principal: #047cac;
+    --gris: lightgrey;
+}

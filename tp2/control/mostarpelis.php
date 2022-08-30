@@ -15,9 +15,9 @@
     <main>
         <div class="alert alert-success" role="alert">
         <?php
+        $aaa = $_SERVER["DOCUMENT_ROOT"];
         $dir = "../vista/archivos/";
         $nombre = $_FILES['imagen']["name"];
-
         if(isset($_POST)){
             if($_FILES['imagen']["error"] <= 0){
                 if($_FILES['imagen']['type'] == "image/jpeg" || $_FILES['imagen']['type'] == "image/png"){          
@@ -141,8 +141,10 @@
                             <a href='../vista/ejercicio4.php'><button class='btn btn-primary'>Volver atrás.</button></a> 
                             </td>
                         </tr>
-                    </div>";
+                    </div>
+                    <p></p>Imagen de la pelicula: $aaa<br>  ";
         }
+        
         ?>
         </div>
     </main>
