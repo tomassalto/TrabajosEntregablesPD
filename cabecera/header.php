@@ -20,9 +20,9 @@
             Trabajos Practicos
             </a>
             <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../TP1/indexTP1.php">Trabajo Practico 1</a></li>
-            <li><a class="dropdown-item" href="../tp2/indexTP2.php">Trabajo Practico 2</a></li>
-            <li><a class="dropdown-item" href="../tp3/indexTP3.php">Trabajo Practico 3</a></li>
+            <li><a class="dropdown-item" href="/TrabajosEntregablesPD/TP1/indexTP1.php">Trabajo Practico 1</a></li>
+            <li><a class="dropdown-item" href="/TrabajosEntregablesPD/tp2/indexTP2.php">Trabajo Practico 2</a></li>
+            <li><a class="dropdown-item" href="/TrabajosEntregablesPD/tp3/indexTP3.php">Trabajo Practico 3</a></li>
             </ul>
             </li>
             </ul>
